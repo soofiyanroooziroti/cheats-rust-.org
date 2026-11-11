@@ -2,7 +2,7 @@
 {
   "tag": "Troubleshooting",
   "title": "Rust Ban Types Explained: Game Bans, Server Bans and Appeals",
-  "seoTitle": "Rust Ban Types Explained",
+  "seoTitle": "Rust Ban Types: Game, Server and Hardware Flags",
   "slug": "rust-ban-types",
   "image": "/images/blog/rust-ban-types.webp",
   "imageAlt": "Rust wooden base tower at night seen from the ground",

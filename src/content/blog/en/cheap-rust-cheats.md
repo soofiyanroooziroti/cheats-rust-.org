@@ -2,7 +2,7 @@
 {
   "tag": "Guides",
   "title": "Where to Find Reliable and Cheap Rust Cheats This Wipe",
-  "seoTitle": "Cheap Rust Cheats This Wipe",
+  "seoTitle": "Cheap Rust Cheats: What Each Plan Costs on This Wipe",
   "slug": "cheap-rust-cheats",
   "image": "/images/blog/cheap-rust-cheats.webp",
   "imageAlt": "Rust player on a road holding a decorated rifle with ESP name labels in the distance",

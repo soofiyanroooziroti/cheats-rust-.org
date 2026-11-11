@@ -1,6 +1,6 @@
 # cheats-rust-.org
 
-Rust Cheats marketing site (live: **cheaturust.org**) — Astro 7 static build.
+Rust Cheats marketing site (live: **cheatrust.org**) — Astro 7 static build.
 
 ### Cloudflare Pages
 

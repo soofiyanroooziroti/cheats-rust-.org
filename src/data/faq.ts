@@ -205,7 +205,7 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'setup',
     icon: 'faqStatus',
     q: 'What is the encryption bypass toggle?',
-    a: 'It is a Misc menu option in this build. It is not a second product and it is not a hardware card. Leave it off unless the current note on cheaturust.org says to use it for this client.',
+    a: 'It is a Misc menu option in this build. It is not a second product and it is not a hardware card. Leave it off unless the current note on cheatrust.org says to use it for this client.',
     scopes: ['rust-cheat'],
   },
 ];

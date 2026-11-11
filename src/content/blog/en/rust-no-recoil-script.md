@@ -2,7 +2,7 @@
 {
   "tag": "Features",
   "title": "Master Every Gunfight with Advanced Rust Weapon Cheats",
-  "seoTitle": "Rust No Recoil Script Guide",
+  "seoTitle": "Rust No Recoil Script: Weapon Options vs Other Files",
   "slug": "rust-no-recoil-script",
   "image": "/images/blog/rust-no-recoil-script.webp",
   "imageAlt": "Rust first-person view of a scoped rifle inside a base",

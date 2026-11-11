@@ -1,4 +1,4 @@
-const storagePrefix = 'cheaturust-forum-vote:';
+const storagePrefix = 'cheatrust-forum-vote:';
 
 function bindForumVotes(): void {
   document.querySelectorAll<HTMLElement>('[data-forum-card], [data-forum-vote]').forEach((post) => {

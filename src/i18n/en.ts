@@ -9,10 +9,10 @@ const rustCheatFeaturesHref = `${productPath('rust-cheat')}#features`;
 export const en: Translations = {
   site: {
     name: 'Rust Cheats',
-    domain: 'cheaturust.org',
+    domain: 'cheatrust.org',
     title: 'Rust Cheats',
     description:
-      'Rust Cheats for Windows PC with aimbot, player ESP, and loot filters. Compare the cheat, HWID spoofer, and UGC recovery on cheaturust.org.',
+      'Rust Cheats for Windows PC with aimbot, player ESP, and loot filters. Compare the cheat, HWID spoofer, and UGC recovery on cheatrust.org.',
     discord: PRIMARY_CHECKOUT_PATH,
   },
   nav: [
@@ -165,7 +165,7 @@ export const en: Translations = {
     rows: [
       {
         title: 'Patch-day loader updates',
-        desc: 'Check cheaturust.org after a Rust or EAC update before you open the loader.',
+        desc: 'Check cheatrust.org after a Rust or EAC update before you open the loader.',
       },
       {
         title: 'Separate aim sliders',
@@ -351,7 +351,7 @@ export const en: Translations = {
         num: '01',
         phase: 'Before purchase',
         title: 'Check EAC status',
-        desc: 'Read cheaturust.org after a client or EasyAnti-Cheat update before you buy or launch.',
+        desc: 'Read cheatrust.org after a client or EasyAnti-Cheat update before you buy or launch.',
       },
       {
         num: '02',
@@ -418,7 +418,7 @@ export const en: Translations = {
     ],
     ticketTitle: 'Include in your ticket',
     ticketItems: [
-      { title: 'Order email', desc: 'The address used at checkout on cheaturust.org.' },
+      { title: 'Order email', desc: 'The address used at checkout on cheatrust.org.' },
       { title: 'Platform', desc: 'Windows 10 or 11, and whether HVCI, core isolation, TPM, and secure boot are on.' },
       { title: 'Error detail', desc: 'The exact loader message, not a paraphrase.' },
     ],
@@ -431,7 +431,7 @@ export const en: Translations = {
       {
         num: '01',
         q: 'Where do I check if Rust Cheats are online?',
-        a: 'Read cheaturust.org after a Rust or EasyAnti-Cheat update. A banner from yesterday is not a current build.',
+        a: 'Read cheatrust.org after a Rust or EasyAnti-Cheat update. A banner from yesterday is not a current build.',
       },
       {
         num: '02',
@@ -461,7 +461,7 @@ export const en: Translations = {
     ],
   },
   footer: {
-    tagline: 'Rust Cheats, HWID spoofer, and UGC recovery for Windows PC. cheaturust.org',
+    tagline: 'Rust Cheats, HWID spoofer, and UGC recovery for Windows PC. cheatrust.org',
     explore: 'Explore',
     exploreLinks: [
       { href: '/', label: 'Feature overview', ariaLabel: 'Features', scrollTarget: 'features' },
@@ -481,12 +481,12 @@ export const en: Translations = {
     about: {
       title: 'About this Rust store',
       description:
-        'cheaturust.org sells Rust Cheats, an HWID spoofer, and UGC account recovery for Windows PC, with setup notes and honest ban risk.',
+        'cheatrust.org sells Rust Cheats, an HWID spoofer, and UGC account recovery for Windows PC, with setup notes and honest ban risk.',
       sections: [
         {
           heading: 'Who we are',
           paragraphs: [
-            'cheaturust.org is a Windows PC store for Rust Cheats, an HWID spoofer, and UGC account recovery. The cheat is one product: aimbot options, two player visual groups, loot filters, chams, and camera tools. It is not a ladder of Lite, Pro, and Elite tiers, and it is not a DMA card.',
+            'cheatrust.org is a Windows PC store for Rust Cheats, an HWID spoofer, and UGC account recovery. The cheat is one product: aimbot options, two player visual groups, loot filters, chams, and camera tools. It is not a ladder of Lite, Pro, and Elite tiers, and it is not a DMA card.',
             'Checkout is $35 for 30 days or $150 lifetime on each product. Those prices match across the three cards. A lifetime key on the cheat does not include the spoofer or the recovery workspace. Starting on a month does not promise a credit toward lifetime.',
             'Product names on this site identify what we sell. They are not a claim that the game publisher endorses the software. Delivery is a portal download for Windows 10 or 11. You keep HVCI, core isolation, TPM, and secure boot on, then open the loader only when the site still matches the current client.',
           ],
@@ -511,12 +511,12 @@ export const en: Translations = {
     privacy: {
       title: 'Privacy Policy',
       description:
-        'How cheaturust.org handles analytics, cookies, and contact data.',
+        'How cheatrust.org handles analytics, cookies, and contact data.',
       sections: [
         {
           heading: 'Information we collect',
           paragraphs: [
-            'We may collect standard web analytics such as page views, device type, browser, and approximate region through Google Analytics when enabled. Checkout and license delivery happen on external checkout pages. We do not store payment card data on cheaturust.org.',
+            'We may collect standard web analytics such as page views, device type, browser, and approximate region through Google Analytics when enabled. Checkout and license delivery happen on external checkout pages. We do not store payment card data on cheatrust.org.',
           ],
         },
         {
@@ -542,12 +542,12 @@ export const en: Translations = {
     terms: {
       title: 'Terms & Conditions',
       description:
-        'Purchase, license, refund, and use terms for products sold on cheaturust.org.',
+        'Purchase, license, refund, and use terms for products sold on cheatrust.org.',
       sections: [
         {
           heading: 'Agreement',
           paragraphs: [
-            'Last updated: October 2026. By using cheaturust.org or completing checkout for any product listed here, you agree to these Terms & Conditions and our Privacy Policy.',
+            'Last updated: October 2026. By using cheatrust.org or completing checkout for any product listed here, you agree to these Terms & Conditions and our Privacy Policy.',
           ],
         },
         {
@@ -560,7 +560,7 @@ export const en: Translations = {
         {
           heading: 'Checkout and delivery',
           paragraphs: [
-            'Payment and license delivery run on external checkout pages. cheaturust.org does not process or store payment card numbers.',
+            'Payment and license delivery run on external checkout pages. cheatrust.org does not process or store payment card numbers.',
             'After purchase, use the portal from your order to download the current loader before you launch Rust. Leave HVCI, core isolation, TPM, and secure boot on.',
           ],
         },
@@ -602,7 +602,7 @@ export const en: Translations = {
     support: {
       title: 'Rust support',
       description:
-        'Loader, HWID spoofer, UGC, and checkout help for cheaturust.org.',
+        'Loader, HWID spoofer, UGC, and checkout help for cheatrust.org.',
     },
   },
   ui: {

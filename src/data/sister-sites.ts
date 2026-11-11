@@ -21,7 +21,7 @@ export const SISTER_SITES: SisterSite[] = [
     hosts: ['cheats-valorant.org', 'cheatsvalorant.org'],
   },
   { label: 'FC27 cheats', href: 'https://cheatsfc27.org/', hosts: ['cheatsfc27.org'] },
-  { label: 'Rust Cheats', href: 'https://cheaturust.org/', hosts: ['cheaturust.org'] },
+  { label: 'Rust Cheats', href: 'https://cheatrust.org/', hosts: ['cheatrust.org'] },
   { label: 'Warzone cheats', href: 'https://getwarzonecheats.org/', hosts: ['getwarzonecheats.org'] },
   { label: 'DayZ cheats', href: 'https://dayz-cheats.org/', hosts: ['dayz-cheats.org'] },
   { label: 'Wardogs cheats', href: 'https://hackforwardogs.com/', hosts: ['hackforwardogs.com'] },

@@ -2,7 +2,7 @@
 {
   "tag": "Setup",
   "title": "Rust Cheat Download: Setup Guide and How to Use It",
-  "seoTitle": "Rust Cheat Download Setup",
+  "seoTitle": "Rust Cheat Download: Portal, Loader and First Launch",
   "slug": "rust-cheat-download",
   "image": "/images/blog/rust-cheat-download.webp",
   "imageAlt": "Rust player holding a weapon near a wooden base tower at night",

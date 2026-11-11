@@ -2,7 +2,7 @@
 {
   "tag": "Troubleshooting",
   "title": "Discover What an HWID Spoofer Does in Rust",
-  "seoTitle": "Spoofer Rust: What It Does",
+  "seoTitle": "Spoofer Rust Guide: HWID Flags and When to Run It",
   "slug": "spoofer-rust",
   "image": "/images/blog/spoofer-rust.webp",
   "imageAlt": "Rust snowy hillside with small distance ESP markers",

@@ -1,4 +1,4 @@
-export const SITE_DOMAIN = 'cheaturust.org';
+export const SITE_DOMAIN = 'cheatrust.org';
 export const SITE_URL = `https://${SITE_DOMAIN}`;
 /** Pricing catalog (product list). */
 export const PRODUCT_CATALOG = '/products/';

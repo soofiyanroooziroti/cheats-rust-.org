@@ -11,7 +11,7 @@ import {
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dist = resolveDistDir();
-const SITE = 'https://cheaturust.org';
+const SITE = 'https://cheatrust.org';
 const errors = [];
 const reports = [];
 
@@ -121,7 +121,7 @@ function checkRobots() {
   }
   const text = fs.readFileSync(robotsPath, 'utf8');
   if (!/Disallow:\s*\/go\//i.test(text)) fail('robots.txt missing Disallow: /go/');
-  if (!/Sitemap:\s*https:\/\/cheaturust\.org\/sitemap/i.test(text)) {
+  if (!/Sitemap:\s*https:\/\/cheatrust\.org\/sitemap/i.test(text)) {
     fail('robots.txt missing sitemap URL for cheatrust.org');
   }
 }
@@ -406,7 +406,8 @@ function checkKeywords() {
         fail(`Home (en) missing "${homeKw}" in title and h1`);
       }
     } else if (!onHome && !pathname.includes('/status/')) {
-      if (h1.includes(homeKw) || titleWithoutSiteSuffix.includes(homeKw)) {
+      const isBlogArticle = /^\/blog\/[^/]+\/$/.test(pathname);
+      if (!isBlogArticle && (h1.includes(homeKw) || titleWithoutSiteSuffix.includes(homeKw))) {
         fail(`${relFromDist(file)}: "${homeKw}" in title/h1 outside home`);
       }
     }

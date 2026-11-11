@@ -2,7 +2,7 @@
 {
   "tag": "Features",
   "title": "How the Best Rust Aimbot Changes Your PvP Experience",
-  "seoTitle": "Best Rust Aimbot for PvP",
+  "seoTitle": "Best Rust Aimbot: FOV, Smoothing and Bone Picks for PvP",
   "slug": "best-rust-aimbot",
   "image": "/images/blog/best-rust-aimbot.webp",
   "imageAlt": "Rust aimbot FOV circle around a player in a grassy field",

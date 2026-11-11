@@ -5,4 +5,4 @@ Disallow: /go/
 Disallow: /cheats/
 Disallow: /contact/
 
-Sitemap: https://cheaturust.org/sitemap.xml
+Sitemap: https://cheatrust.org/sitemap.xml

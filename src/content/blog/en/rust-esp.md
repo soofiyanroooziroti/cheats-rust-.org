@@ -2,11 +2,11 @@
 {
   "tag": "Features",
   "title": "The Ultimate Guide to Using Rust ESP for a Tactical Advantage",
-  "seoTitle": "Rust ESP Tactical Guide",
+  "seoTitle": "Rust ESP Guide: Skeleton, Box, Name and Distance Labels",
   "slug": "rust-esp",
   "image": "/images/blog/rust-esp.webp",
   "imageAlt": "Rust skeleton ESP and name label on a player inside a wooden base",
-  "desc": "Use rust esp as layers: boxes, rust skeleton esp, names, and distance. See how rust esp cheats change a rotate before you queue into the next fight this wipe.",
+  "desc": "Use rust esp in layers—skeleton, box, name, and distance labels on players. See how those overlays change a rotate before you queue your next fight this wipe.",
   "date": "Oct 28, 2026",
   "dateIso": "2026-10-28",
   "readTime": "6 min read",

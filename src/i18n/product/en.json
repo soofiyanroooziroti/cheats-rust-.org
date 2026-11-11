@@ -2,7 +2,7 @@
   "steps": [
     {
       "title": "Check status",
-      "desc": "Confirm modules are online on cheaturust.org before you buy—especially after a Rust or EAC update."
+      "desc": "Confirm modules are online on cheatrust.org before you buy—especially after a Rust or EAC update."
     },
     {
       "title": "Pick a plan",
@@ -110,7 +110,7 @@
       "title": "Built for Rust on Windows PC",
       "paragraphs": [
         "Rust Cheats covers aimbot tuning, player ESP, loot filters, chams, and camera options for operations and extraction. Updates ship while your key is active, with Discord help for setup.",
-        "Always check availability on cheaturust.org before you launch, especially after an EasyAnti-Cheat (EAC) or client patch."
+        "Always check availability on cheatrust.org before you launch, especially after an EasyAnti-Cheat (EAC) or client patch."
       ]
     },
     "body": [
@@ -131,7 +131,7 @@
         "text": "Monthly $35 USD or lifetime $150 USD. Instant digital delivery worldwide after checkout."
       }
     ],
-    "goodToKnow": "Rust and EasyAnti-Cheat (EAC) update often. Confirm availability on cheaturust.org before you launch. Overlay behavior may differ in menus or spectator views after patches.",
+    "goodToKnow": "Rust and EasyAnti-Cheat (EAC) update often. Confirm availability on cheatrust.org before you launch. Overlay behavior may differ in menus or spectator views after patches.",
     "limitations": "Third-party software can violate game terms and lead to bans. You use this software at your own risk. Compatibility can change after game, EAC, or Windows updates without notice.",
     "requirements": [
       "Windows 10/11",

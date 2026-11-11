@@ -2,7 +2,7 @@
 {
   "tag": "Features",
   "title": "Rust Cheat Features: Menu, Config and Misc Options Explained",
-  "seoTitle": "Rust Cheat Features Guide",
+  "seoTitle": "Rust Cheat Features: ESP, Aimbot, Weapon and Misc",
   "slug": "rust-cheat-features",
   "image": "/images/blog/rust-cheat-features.webp",
   "imageAlt": "Rust night view with ESP labels over distant terrain",

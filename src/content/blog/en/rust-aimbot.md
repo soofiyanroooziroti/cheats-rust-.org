@@ -2,7 +2,7 @@
 {
   "tag": "Features",
   "title": "How to Configure Your Rust Aimbot for Legit Gameplay",
-  "seoTitle": "Rust Aimbot Settings Guide",
+  "seoTitle": "Rust Aimbot Settings: FOV, Smoothing, Bone and Aim Key",
   "slug": "rust-aimbot",
   "image": "/images/blog/rust-aimbot.webp",
   "imageAlt": "Rust scope view with an ESP marker on a distant player",

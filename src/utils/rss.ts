@@ -36,7 +36,7 @@ export function buildRssFeed(): string {
   <channel>
     <title>Rust Cheats guides</title>
     <link>${SITE_ORIGIN}/blog/</link>
-    <description>Rust ESP, aimbot, weapon, misc, and config guides from cheaturust.org.</description>
+    <description>Rust ESP, aimbot, weapon, misc, and config guides from cheatrust.org.</description>
     <language>en-us</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
     <atom:link href="${feedUrl}" rel="self" type="application/rss+xml" />

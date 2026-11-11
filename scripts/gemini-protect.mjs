@@ -14,7 +14,7 @@ const BASE_TERMS = [
   'HWID Spoofer',
   'UGC Account Recovery',
   'EasyAnti-Cheat',
-  'cheaturust.org',
+  'cheatrust.org',
   'Unturned cheats',
   'Aion 2 hack',
   'CS2 cheats',

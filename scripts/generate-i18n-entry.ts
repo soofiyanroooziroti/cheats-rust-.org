@@ -57,7 +57,7 @@ const extraStrings = {
     title: 'Page not found',
     description:
       'That URL does not exist or may have moved. Head back to the homepage or browse the products.',
-    metaDescription: 'The page you requested could not be found on cheaturust.org.',
+    metaDescription: 'The page you requested could not be found on cheatrust.org.',
     metaTitleSuffix: 'Page not found',
     backHome: 'Back to home',
     viewProducts: 'View products',
@@ -154,7 +154,7 @@ const extraStrings = {
       'Plans, aim and ESP options, the HWID spoofer, UGC recovery, and what to check after an EAC update.',
     schemaName: 'FAQ — Rust Cheats & Products',
     schemaDescription:
-      'Answers about Rust Cheats, the HWID spoofer, UGC recovery, EAC risk, and checkout on cheaturust.org.',
+      'Answers about Rust Cheats, the HWID spoofer, UGC recovery, EAC risk, and checkout on cheatrust.org.',
   },
   siteFaqSection: {
     allTopicsEyebrow: 'All topics',

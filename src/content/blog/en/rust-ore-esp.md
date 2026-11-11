@@ -2,7 +2,7 @@
 {
   "tag": "Features",
   "title": "Rust Ore ESP: Find Sulfur, Metal and Stone Faster",
-  "seoTitle": "Rust Ore ESP for Nodes",
+  "seoTitle": "Rust Ore ESP: Sulfur, Metal and Stone Node Labels",
   "slug": "rust-ore-esp",
   "image": "/images/blog/rust-ore-esp.webp",
   "imageAlt": "Rust stone wall with ESP markers above it in a snowy area",
