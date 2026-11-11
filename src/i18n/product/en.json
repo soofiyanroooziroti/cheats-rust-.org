@@ -24,7 +24,7 @@
       "Player Visual Options",
       "Player Visual Options 2",
       "Loot Visual Options",
-      "Chams Options",
+      "Weapon Options",
       "Misc Options"
     ],
     "descs": [
@@ -66,10 +66,10 @@
       "Marks player corpses so you can find leftover gear.",
       "Marks AI corpses separately from player bodies.",
       "Marks computers you can interact with.",
-      "Turn chams on for Player, AI, Weapon, Hands, or Self.",
-      "Master switch for the chams pass.",
-      "Pick a static color or an RGB color cycle.",
-      "Choose the solid color used when style is set to static.",
+      "Weapon options cover recoil, spread, sway, and melee reach.",
+      "Each weapon line is its own toggle in the weapon options group.",
+      "Recoil, spread, and sway stay separate from aimbot smoothing.",
+      "Peek and neck view binds sit with the other weapon options.",
       "Changes the camera field of view.",
       "Toggles a third-person camera on a hotkey.",
       "Offsets arm scale on X, Y, and Z.",
@@ -77,12 +77,12 @@
       "Draws a crosshair when you want a fixed center mark.",
       "Hides Player, AI, Item, Dead Container, or Computer markers while combat mode is on. Each type can be toggled.",
       "Listed Misc toggle in this build. It is a menu option, not a separate product.",
-      "Save and load your aim, visual, loot, chams, and misc layout instead of retuning every session."
+      "Save and load your aimbot, ESP, weapon, misc, and config layout instead of retuning every session."
     ],
     "slides": [
       {
-        "alt": "Rust chams and ESP on an operator in a firefight",
-        "caption": "Chams & ESP",
+        "alt": "Rust ESP on an operator in a firefight",
+        "caption": "ESP overlay",
         "captionDesc": "Player highlights and bone ESP in a close-quarters fight."
       },
       {
@@ -96,9 +96,9 @@
         "captionDesc": "Loot and operator awareness during extraction."
       },
       {
-        "alt": "Rust warehouse interior with chams on several players",
-        "caption": "Warehouse chams",
-        "captionDesc": "Player chams in a close indoor fight."
+        "alt": "Rust warehouse interior with player ESP",
+        "caption": "Warehouse ESP",
+        "captionDesc": "Player ESP in a close indoor fight."
       },
       {
         "alt": "Rust skeleton ESP on operators",
@@ -109,7 +109,7 @@
     "overview": {
       "title": "Built for Rust on Windows PC",
       "paragraphs": [
-        "Rust Cheats covers aimbot tuning, player ESP, loot filters, chams, and camera options for operations and extraction. Updates ship while your key is active, with Discord help for setup.",
+        "Rust Cheats covers aimbot, ESP, weapon options, misc options, and config options for Windows PC. Updates ship while your key is active, with Discord help for setup.",
         "Always check availability on cheatrust.org before you launch, especially after an EasyAnti-Cheat (EAC) or client patch."
       ]
     },
@@ -120,7 +120,7 @@
       },
       {
         "type": "p",
-        "text": "Aimbot options, two player visual groups, loot visuals, chams, and misc camera, scale, combat-mode, and config tools. The full list with a short note on each option is in the feature section on this page."
+        "text": "Aimbot, ESP, weapon options, misc options, and config options. The full list with a short note on each option is in the feature section on this page."
       },
       {
         "type": "h2",

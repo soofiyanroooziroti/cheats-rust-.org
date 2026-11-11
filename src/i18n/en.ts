@@ -49,7 +49,7 @@ export const en: Translations = {
     titleLine1: 'Rust Cheats',
     titleLine2: 'Rust Cheats',
     subtitle:
-      'Rust cheats and cheats for Windows PC—aimbot, player ESP, loot filters, and chams, with instant delivery and Discord support.',
+      'Rust cheats and cheats for Windows PC—aimbot, player ESP, weapon options, and misc options, with instant delivery and Discord support.',
     ctaPrimary: 'View products',
     ctaDiscord: 'Buy now',
     modesLabel: 'Modes',
@@ -64,7 +64,7 @@ export const en: Translations = {
   features: {
     eyebrow: 'Features',
     title: 'Everything you need in one package',
-    subtitle: 'Aimbot, player visuals, loot, chams, and camera tools for Rust on Windows PC.',
+    subtitle: 'Aimbot, player ESP, weapon options, misc options, and config options for Rust on Windows PC.',
     items: [
       {
         title: 'Aimbot',
@@ -101,11 +101,11 @@ export const en: Translations = {
         bento: 'sm:col-span-2 lg:col-span-6 lg:col-start-1 lg:row-start-3',
       },
       {
-        title: 'Chams',
-        subtitle: 'A color pass, not a label.',
-        desc: 'Static or RGB color on players, AI, weapons, hands, or yourself. ESP labels stay a separate group.',
-        bullets: ['Player, AI, weapon, hands, or self', 'Static color or RGB', 'Enable switch per target'],
-        tags: ['chams', 'color', 'players'],
+        title: 'Weapon options',
+        subtitle: 'Recoil, spread, and sway.',
+        desc: 'Weapon options cover recoil, spread, sway, and melee reach. ESP labels stay a separate group.',
+        bullets: ['Recoil, spread, and sway', 'Melee reach and fire-rate lines', 'Separate from the aimbot group'],
+        tags: ['weapon', 'recoil', 'spread'],
         bento: 'sm:col-span-2 lg:col-span-6 lg:col-start-7 lg:row-start-3',
       },
       {
@@ -124,7 +124,7 @@ export const en: Translations = {
       {
         title: 'Config',
         subtitle: 'Save the layout you tested.',
-        desc: 'Store aim, visuals, loot, chams, and misc instead of retuning after every launch.',
+        desc: 'Store aimbot, ESP, weapon options, misc options, and config options instead of retuning after every launch.',
         bullets: ['Save and load configs', 'One slider change at a time', 'Reload after an EAC patch'],
         tags: ['config', 'presets', 'save'],
         bento: 'sm:col-span-2 lg:col-span-4 lg:row-span-2 lg:col-start-9 lg:row-start-4',
@@ -181,7 +181,7 @@ export const en: Translations = {
       },
       {
         title: 'Saved configs',
-        desc: 'Save aim, visuals, loot, chams, and camera settings in the config system instead of rebuilding them each launch.',
+        desc: 'Save aimbot, ESP, weapon options, misc options, and config options instead of rebuilding them each launch.',
       },
       {
         title: 'HWID is its own product',
@@ -234,7 +234,7 @@ export const en: Translations = {
       {
         step: 'Step 2',
         title: 'Launch & configure modules',
-        desc: 'Run the loader, then tune aim, visuals, loot, and chams one slider at a time.',
+        desc: 'Run the loader, then tune aimbot, ESP, weapon options, and misc options one slider at a time.',
       },
       {
         step: 'Step 3',
@@ -252,7 +252,7 @@ export const en: Translations = {
   cheats: {
     eyebrow: 'Game cheat',
     title: 'Rust Cheats',
-    subtitle: 'Aimbot, player ESP, loot filters, and chams for Windows PC.',
+    subtitle: 'Aimbot, player ESP, weapon options, and misc options for Windows PC.',
     viewAll: 'View details',
     explore: 'Explore',
     items: [
@@ -261,13 +261,13 @@ export const en: Translations = {
         tier: 'Full suite',
         name: 'Rust',
         title: 'Rust Cheats',
-        desc: 'Rust Cheats for operations and extraction—aimbot, player ESP, loot filters, and chams.',
+        desc: 'Rust Cheats for operations and extraction—aimbot, player ESP, weapon options, and misc options.',
         features: [
           'Aimbot · FOV · smooth · bones',
           'Player ESP · box · health',
           'Loot name · rarity · price',
-          'Player and AI chams',
-          'Camera FOV and config save',
+          'Weapon options · recoil · spread',
+          'Misc options and config save',
         ],
         more: 45,
         href: '/product/rust-cheat/',
@@ -308,8 +308,8 @@ export const en: Translations = {
   blog: {
     eyebrow: 'Blog',
     title: 'Guides and updates',
-    subtitle: 'Setup notes, aimbot and ESP guides, loot and chams explainers, and pricing answers for Rust on Windows PC.',
-    latestTitle: 'Latest Rust cheat guides',
+    subtitle: 'Setup notes, aimbot and ESP guides, loot explainers, and pricing answers for Rust on Windows PC.',
+    latestTitle: 'Rust guides for aim, ESP, loot and setup',
     latestSubtitle: 'Filter by topic or sort to find setup guides, feature deep-dives, and patch-day notes.',
     filterAll: 'All articles',
     sortLabel: 'Sort by',
@@ -331,7 +331,7 @@ export const en: Translations = {
       { num: '01', label: 'Aim', title: 'Cone, speed, and bone', desc: 'FOV, smooth, speed, stickiness, visible check, and a head, neck, chest, or closest bone.' },
       { num: '02', label: 'Visuals', title: 'Labels you can actually read', desc: 'Skeleton, box, health, gear level, and a max distance so the fight stays clear.' },
       { num: '03', label: 'Loot', title: 'Price filter first', desc: 'Item name, rarity, price, corpses, and computers, with a minimum price so junk drops off.' },
-      { num: '04', label: 'Chams', title: 'Color on the model', desc: 'Static or RGB on players, AI, weapons, hands, or yourself. Separate from ESP labels.' },
+      { num: '04', label: 'Weapon', title: 'Recoil, spread, and sway', desc: 'Weapon options cover recoil, spread, sway, and melee reach. They stay separate from ESP labels.' },
       { num: '05', label: 'Camera', title: 'View width, not aim width', desc: 'Camera FOV, third person, arm and weapon scale, and combat-mode hides.' },
       { num: '06', label: 'Config', title: 'Save the layout', desc: 'Store the sliders you tested so the next launch does not start from zero.' },
     ],
@@ -486,7 +486,7 @@ export const en: Translations = {
         {
           heading: 'Who we are',
           paragraphs: [
-            'cheatrust.org is a Windows PC store for Rust Cheats, an HWID spoofer, and UGC account recovery. The cheat is one product: aimbot options, two player visual groups, loot filters, chams, and camera tools. It is not a ladder of Lite, Pro, and Elite tiers, and it is not a DMA card.',
+            'cheatrust.org is a Windows PC store for Rust Cheats, an HWID spoofer, and UGC account recovery. The cheat is one product: aimbot, ESP, weapon options, misc options, and config options. It is not a ladder of Lite, Pro, and Elite tiers, and it is not a DMA card.',
             'Checkout is $35 for 30 days or $150 lifetime on each product. Those prices match across the three cards. A lifetime key on the cheat does not include the spoofer or the recovery workspace. Starting on a month does not promise a credit toward lifetime.',
             'Product names on this site identify what we sell. They are not a claim that the game publisher endorses the software. Delivery is a portal download for Windows 10 or 11. You keep HVCI, core isolation, TPM, and secure boot on, then open the loader only when the site still matches the current client.',
           ],

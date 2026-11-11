@@ -146,7 +146,7 @@
       },
       {
         "title": "Saved configs",
-        "desc": "Save aim, visuals, loot, chams, and camera settings in the config system instead of rebuilding them each launch."
+        "desc": "Save aimbot, ESP, weapon options, misc options, and config options instead of rebuilding them each launch."
       },
       {
         "title": "HWID is its own product",
@@ -207,7 +207,7 @@
       {
         "step": "Step 2",
         "title": "Launch & configure modules",
-        "desc": "Run the loader, then tune aim, visuals, loot, and chams one slider at a time."
+        "desc": "Run the loader, then tune aimbot, ESP, weapon options, and misc options one slider at a time."
       },
       {
         "step": "Step 3",
@@ -301,8 +301,8 @@
   "blog": {
     "eyebrow": "Blog",
     "title": "Guides and updates",
-    "subtitle": "Setup notes, aimbot and ESP guides, loot and chams explainers, and pricing answers for Rust on Windows PC.",
-    "latestTitle": "Latest Windows guides for aim, ESP, loot, chams, and setup",
+    "subtitle": "Setup notes, aimbot and ESP guides, loot explainers, and pricing answers for Rust on Windows PC.",
+    "latestTitle": "Rust guides for aim, ESP, loot and setup",
     "latestSubtitle": "Filter by topic or sort to find setup guides, feature deep-dives, and patch-day notes.",
     "filterAll": "All articles",
     "sortLabel": "Sort by",
@@ -355,9 +355,9 @@
       },
       {
         "num": "04",
-        "label": "Chams",
-        "title": "Color on the model",
-        "desc": "Static or RGB on players, AI, weapons, hands, or yourself. Separate from ESP labels."
+        "label": "Weapon",
+        "title": "Recoil, spread, and sway",
+        "desc": "Weapon options cover recoil, spread, sway, and melee reach. They stay separate from ESP labels."
       },
       {
         "num": "05",
@@ -562,7 +562,7 @@
         "topic": "esp",
         "icon": "faqWhatIsEsp",
         "q": "Why does player ESP cover the fight?",
-        "a": "Start with box or skeleton, health, and distance. Add gear levels only if you read them. A max distance drops far operators. Chams is a separate color pass, not a replacement for those labels.",
+        "a": "Start with box or skeleton, health, and distance. Add gear levels only if you read them. A max distance drops far operators. Weapon options are a separate menu, not a replacement for those labels.",
         "scopes": [
           "rust-cheat"
         ]
@@ -612,7 +612,7 @@
         "topic": "scripts",
         "icon": "faqWhatIsEsp",
         "q": "Does visible check stop labels through cover?",
-        "a": "No. Visible check only gates aim assist: it engages when the operator is in line of sight, not through solid cover. Skeleton, box, and chams are separate toggles and can still draw when that check is on.",
+        "a": "No. Visible check only gates aim assist: it engages when the operator is in line of sight, not through solid cover. Skeleton and box ESP are separate toggles and can still draw when that check is on.",
         "scopes": [
           "rust-cheat"
         ]
@@ -682,7 +682,7 @@
         "topic": "scripts",
         "icon": "faqExternalLoader",
         "q": "Does combat mode turn aim assist off?",
-        "a": "No. Combat mode hides the markers you pick: player, AI, item, dead container, or computer. Aim assist, camera width, and chams stay on until you toggle those groups yourself.",
+        "a": "No. Combat mode hides the markers you pick: player, AI, item, dead container, or computer. Aimbot and misc options stay on until you toggle those groups yourself.",
         "scopes": [
           "rust-cheat"
         ]
@@ -769,7 +769,7 @@
         {
           "heading": "Who we are",
           "paragraphs": [
-            "cheatrust.org is a Windows PC store for Rust Cheats, an HWID spoofer, and UGC account recovery. The cheat is one product: aimbot options, two player visual groups, loot filters, chams, and camera tools. It is not a ladder of Lite, Pro, and Elite tiers, and it is not a DMA card.",
+            "cheatrust.org is a Windows PC store for Rust Cheats, an HWID spoofer, and UGC account recovery. The cheat is one product: aimbot, ESP, weapon options, misc options, and config options. It is not a ladder of Lite, Pro, and Elite tiers, and it is not a DMA card.",
             "The cheat and UGC are $35 for 30 days or $150 lifetime. The HWID spoofer is $50 for 30 days or $150 lifetime. A lifetime key on the cheat does not include the spoofer or the recovery workspace. Starting on a month does not promise a credit toward lifetime.",
             "Product names on this site identify what we sell. They are not a claim that the game publisher endorses the software. Delivery is a portal download for Windows 10 or 11. You keep HVCI, core isolation, TPM, and secure boot on, then open the loader only when the site still matches the current client."
           ]
@@ -917,7 +917,7 @@
     "cards": {
       "cheats": {
         "title": "Rust Cheats",
-        "desc": "Aimbot, ESP, loot, and chams for Windows PC."
+        "desc": "Aimbot, ESP, weapon options, and misc options for Windows PC."
       },
       "spoofer": {
         "title": "HWID Spoofer",
@@ -933,7 +933,7 @@
       },
       "features": {
         "title": "Features",
-        "desc": "15+ modules: aimbot, ESP, loot, and chams."
+        "desc": "Aimbot, ESP, weapon options, misc options, and config options."
       },
       "status": {
         "title": "Status",
@@ -1080,7 +1080,7 @@
   },
   "faqPage": {
     "eyebrow": "Help center",
-    "title": "Faq – Plans, Setup, and EAC Risk Before You Checkout",
+    "title": "FAQ: Plans, Setup and EAC Risk Before You Buy",
     "subtitle": "This FAQ covers plans, setup, and EAC risk before checkout, including the loader, spoofer, and account tool.",
     "schemaName": "FAQ — Rust Cheats & Products",
     "schemaDescription": "Answers about Rust Cheats, the HWID spoofer, UGC recovery, EAC risk, and checkout on cheatrust.org."
