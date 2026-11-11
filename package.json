@@ -23,7 +23,8 @@
     "check:seo": "node scripts/check-keywords.mjs && node scripts/check-blog-seo.mjs",
     "check:links": "node scripts/check-i18n-links.mjs",
     "verify": "node scripts/verify-site.mjs",
-    "qa": "npm run build:i18n-test && npm run check:seo && npm run verify"
+    "qa": "npm run build:i18n-test && npm run check:seo && npm run verify",
+    "deploy:cf": "wrangler pages deploy dist --project-name=cheats-rust--org"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",
@@ -46,6 +47,7 @@
     "@fontsource/rajdhani": "^5.3.0",
     "dotenv": "^18.0.8",
     "tsx": "^4.23.15",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "wrangler": "^4.160.1"
   }
 }

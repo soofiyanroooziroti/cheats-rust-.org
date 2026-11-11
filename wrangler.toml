@@ -1,4 +1,8 @@
-# Cloudflare Pages — static Astro output (dist/). Do not use `wrangler deploy` (Workers).
+# Cloudflare Pages — static Astro output in dist/
 name = "cheats-rust--org"
 compatibility_date = "2024-11-12"
 pages_build_output_dir = "dist"
+
+# Lets `npx wrangler deploy` upload dist when CI still uses that command (prefer `npm run deploy:cf`).
+[assets]
+directory = "./dist"
