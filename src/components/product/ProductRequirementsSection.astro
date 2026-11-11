@@ -1,0 +1,65 @@
+---
+import SectionHeader from '../SectionHeader.astro';
+import Icon from '../icons/Icon.astro';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/starwind/card';
+import { getLocaleFromAstro, localePath } from '../../i18n';
+
+const locale = getLocaleFromAstro(Astro);
+const statusHref = localePath('/status/', locale);
+
+const securityItems = ['HVCI: ON', 'Core Isolation: ON', 'TPM: ON', 'Secure Boot: ON'];
+const osItems = ['Windows 10 and 11 both supported'];
+---
+
+<section
+  id="requirements"
+  class="border-t border-border bg-background py-12 md:py-16"
+  aria-labelledby="product-requirements-title"
+>
+  <div class="mx-auto max-w-6xl px-5">
+    <SectionHeader eyebrow="Requirements" title="Rust Cheat Requirements" titleId="product-requirements-title" />
+
+    <div class="mt-10 grid gap-6 md:grid-cols-2">
+      <Card class="flex flex-col border-border/80 bg-muted/15 py-0">
+        <CardHeader class="space-y-1 border-b border-border/60 pb-4 pt-5">
+          <CardTitle class="text-base font-semibold normal-case leading-snug">System Requirements</CardTitle>
+        </CardHeader>
+        <CardContent class="pb-5 pt-4">
+          <ul class="space-y-2.5 text-sm text-muted-foreground" role="list">
+            {
+              securityItems.map((item) => (
+                <li class="flex items-start gap-2.5">
+                  <Icon name="check" size={15} class="product-feature-check mt-0.5 shrink-0 icon-app--primary" />
+                  <span class="font-medium text-foreground">{item}</span>
+                </li>
+              ))
+            }
+          </ul>
+        </CardContent>
+      </Card>
+
+      <Card class="flex flex-col border-border/80 bg-muted/15 py-0">
+        <CardHeader class="space-y-1 border-b border-border/60 pb-4 pt-5">
+          <CardTitle class="text-base font-semibold normal-case leading-snug">Operating System</CardTitle>
+        </CardHeader>
+        <CardContent class="pb-5 pt-4">
+          <ul class="space-y-2.5 text-sm text-muted-foreground" role="list">
+            {
+              osItems.map((item) => (
+                <li class="flex items-start gap-2.5">
+                  <Icon name="check" size={15} class="product-feature-check mt-0.5 shrink-0 icon-app--primary" />
+                  <span class="font-medium text-foreground">{item}</span>
+                </li>
+              ))
+            }
+          </ul>
+        </CardContent>
+      </Card>
+    </div>
+
+    <p class="mt-6 text-sm leading-relaxed text-muted-foreground">
+      Check that the <a href={statusHref} class="text-primary underline-offset-2 hover:underline">status page</a> shows
+      green before you use the cheat.
+    </p>
+  </div>
+</section>

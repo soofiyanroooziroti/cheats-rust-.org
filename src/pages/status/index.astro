@@ -1,0 +1,175 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { resolvePageSeo } from '../../config/seo';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import {
+  STATUS_GAME_NOTES,
+  STATUS_LABEL,
+  STATUS_LAST_UPDATED,
+  STATUS_LEGEND,
+  STATUS_RECENT_UPDATES,
+  STATUS_TONE,
+  formatStatusUpdated,
+} from '../../data/status';
+import { breadcrumbSchema, webPageSchema } from '../../utils/schema';
+
+const seo = resolvePageSeo('/status/');
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Status', path: '/status/' },
+];
+const updated = formatStatusUpdated(STATUS_LAST_UPDATED);
+---
+
+<BaseLayout
+  title={seo.title}
+  description={seo.description}
+  noindex={true}
+  jsonLd={[
+    webPageSchema({
+      name: seo.title,
+      description: seo.description,
+      url: '/status/',
+    }),
+    breadcrumbSchema(breadcrumbs),
+  ]}
+>
+  <section class="status-page border-b border-border bg-muted/10 py-8 md:py-12">
+    <div class="mx-auto max-w-3xl px-5">
+      <Breadcrumbs items={breadcrumbs} />
+
+      <header class="mt-8 space-y-4">
+        <p class="text-xs font-semibold uppercase tracking-[0.16em] text-muted-foreground">Rust Cheats</p>
+        <h1 id="status-page-title" class="text-3xl font-bold md:text-4xl">Status</h1>
+        <p class:list={['status-state', `status-state--${STATUS_TONE}`]}>{STATUS_LABEL}</p>
+        <p class="text-sm text-muted-foreground">Updated {updated}</p>
+      </header>
+
+      <ul class="status-legend mt-8" role="list">
+        {
+          STATUS_LEGEND.map((item) => (
+            <li class="status-legend__item">
+              <span class:list={['status-legend__dot', `status-legend__dot--${item.tone}`]} aria-hidden="true" />
+              <span>
+                <strong>{item.label}.</strong> {item.meaning}
+              </span>
+            </li>
+          ))
+        }
+      </ul>
+
+      <section class="mt-12" aria-labelledby="status-ac-title">
+        <h2 id="status-ac-title" class="text-lg font-semibold">Latest anti-cheat notes</h2>
+        <ol class="status-notes mt-4" role="list">
+          {
+            STATUS_RECENT_UPDATES.map((entry) => (
+              <li>
+                <p class="text-sm font-semibold text-foreground">
+                  {entry.title}
+                  <span class="font-normal text-muted-foreground"> · {entry.when}</span>
+                </p>
+                <p class="mt-1 text-sm leading-relaxed text-muted-foreground">{entry.summary}</p>
+              </li>
+            ))
+          }
+        </ol>
+      </section>
+
+      <section class="mt-10" aria-labelledby="status-game-title">
+        <h2 id="status-game-title" class="text-lg font-semibold">5 Nov 2026 game notes</h2>
+        <ol class="status-notes mt-4" role="list">
+          {
+            STATUS_GAME_NOTES.map((entry) => (
+              <li>
+                <p class="text-sm font-semibold text-foreground">{entry.title}</p>
+                <p class="mt-1 text-sm leading-relaxed text-muted-foreground">{entry.summary}</p>
+              </li>
+            ))
+          }
+        </ol>
+      </section>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .status-state {
+    display: inline-flex;
+    width: fit-content;
+    align-items: center;
+    border-radius: 999px;
+    padding: 0.7rem 1.35rem;
+    font-size: clamp(2rem, 6vw, 3.25rem);
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .status-state--green {
+    color: #052e16;
+    background: #22c55e;
+    box-shadow: 0 0 0 10px rgb(34 197 94 / 18%);
+  }
+
+  .status-state--red {
+    color: #450a0a;
+    background: #ef4444;
+    box-shadow: 0 0 0 10px rgb(239 68 68 / 18%);
+  }
+
+  .status-state--blue {
+    color: #eff6ff;
+    background: #2563eb;
+    box-shadow: 0 0 0 10px rgb(37 99 235 / 20%);
+  }
+
+  .status-legend {
+    display: grid;
+    gap: 0.75rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .status-legend__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.7rem;
+    font-size: 0.95rem;
+    line-height: 1.45;
+  }
+
+  .status-legend__dot {
+    width: 0.85rem;
+    height: 0.85rem;
+    margin-top: 0.28rem;
+    flex-shrink: 0;
+    border-radius: 999px;
+  }
+
+  .status-legend__dot--green {
+    background: #22c55e;
+  }
+
+  .status-legend__dot--red {
+    background: #ef4444;
+  }
+
+  .status-legend__dot--blue {
+    background: #3b82f6;
+  }
+
+  .status-notes {
+    display: grid;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .status-notes li {
+    border-left: 2px solid color-mix(in oklch, var(--primary) 40%, transparent);
+    padding-left: 0.9rem;
+  }
+</style>
