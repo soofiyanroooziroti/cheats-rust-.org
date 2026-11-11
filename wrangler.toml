@@ -1,0 +1,4 @@
+# Cloudflare Pages — static Astro output (dist/). Do not use `wrangler deploy` (Workers).
+name = "cheats-rust--org"
+compatibility_date = "2024-11-12"
+pages_build_output_dir = "dist"

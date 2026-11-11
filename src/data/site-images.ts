@@ -1,5 +1,4 @@
-import fs from 'node:fs';
-import path from 'node:path';
+import manifestJson from '../../public/images/images.json';
 import { cheatHomeHeroSlides } from './product-catalog-en';
 import type { ProductSlide } from './product-types';
 
@@ -12,16 +11,7 @@ export interface SiteImageEntry {
   height: number;
 }
 
-const manifestPath = path.join(process.cwd(), 'public/images/images.json');
-
-function loadManifest(): SiteImageEntry[] {
-  if (!fs.existsSync(manifestPath)) {
-    throw new Error('Missing public/images/images.json');
-  }
-  return JSON.parse(fs.readFileSync(manifestPath, 'utf8')) as SiteImageEntry[];
-}
-
-const manifest = loadManifest();
+const manifest = manifestJson as SiteImageEntry[];
 
 const GALLERY_SLOTS = ['gallery-1', 'gallery-2', 'gallery-3', 'gallery-4', 'gallery-5'] as const;
 
