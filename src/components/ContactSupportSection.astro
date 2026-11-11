@@ -6,6 +6,7 @@ import '../styles/support-section.css';
 import Icon from './icons/Icon.astro';
 import type { IconName } from './icons/types';
 import { Button } from '@/components/starwind/button';
+import { CHECKOUT_LINK_REL, isZadeyoHref } from '../config/checkout';
 import {
   Card,
   CardContent,
@@ -59,7 +60,13 @@ const c = t.support;
                   size="sm"
                   class="w-full"
                   target={channel.href.startsWith('http') ? '_blank' : undefined}
-                  rel={channel.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                  rel={
+                    isZadeyoHref(channel.href)
+                      ? CHECKOUT_LINK_REL
+                      : channel.href.startsWith('http')
+                        ? 'noopener noreferrer'
+                        : undefined
+                  }
                 >
                   {channel.linkLabel}
                   <Icon name="arrowRight" size={17} />

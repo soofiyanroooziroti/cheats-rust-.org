@@ -40,9 +40,9 @@ export const PAGE_SEO: Record<string, PageSeoEntry> = {
       'Community threads on the Windows loader, HWID spoofer, unban tool, and plan pricing. Marked developer replies on setup, EAC updates, and checkout issues.',
   },
   '/faq/': {
-    title: 'FAQ: Rust Plans, Setup and EAC Ban Risk Before You Buy',
+    title: 'FAQ: Rust Plans, Setup and EAC Risk Before You Buy',
     description:
-      'Answers on checkout, EasyAnti-Cheat updates, Windows requirements, hardware flags, and how the loader, spoofer, and unban tool differ before you buy.',
+      'FAQ answers on checkout, EasyAnti-Cheat updates, Windows requirements, hardware flags, and how the loader, spoofer and unban tool differ.',
   },
   '/support/': {
     title: 'Support: Loader and Checkout Help',
@@ -52,7 +52,7 @@ export const PAGE_SEO: Record<string, PageSeoEntry> = {
   '/about/': {
     title: 'About Our Rust Store: Checkout, Delivery and Ban Risk',
     description:
-      'What cheatrust.org sells, how checkout and portal delivery work, and the ban risk that stays on you when you use these tools on Windows PC.',
+      'What this Rust store sells, how checkout and portal delivery work, and the ban risk that stays on you when you use these tools on Windows PC.',
   },
   '/privacy/': {
     title: 'Privacy Policy: Analytics, Cookies and Checkout Data',

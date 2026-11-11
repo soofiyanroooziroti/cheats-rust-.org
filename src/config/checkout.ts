@@ -14,6 +14,13 @@ export const CHECKOUT_SLUG_TO_PRODUCT = Object.fromEntries(
   Object.entries(CHECKOUT_SLUGS).map(([product, slug]) => [slug, product as CheckoutProduct]),
 ) as Record<string, CheckoutProduct>;
 
+/** Affiliate checkout hops (/go/… and zadeyo.com). */
+export const CHECKOUT_LINK_REL = 'sponsored nofollow noopener';
+
+export function isZadeyoHref(href: string): boolean {
+  return href.includes('zadeyo.com') || /^\/go\/(rust|hwid-spoofer|ugc)(\/|\?|$)/.test(href);
+}
+
 export function checkoutPath(product: CheckoutProduct = 'rustCheat'): string {
   return `/go/${CHECKOUT_SLUGS[product]}/`;
 }

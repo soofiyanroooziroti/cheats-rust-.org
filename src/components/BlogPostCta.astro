@@ -1,6 +1,7 @@
 ---
 import Icon from './icons/Icon.astro';
 import { Button } from '@/components/starwind/button';
+import { isZadeyoHref, CHECKOUT_LINK_REL } from '../config/checkout';
 
 interface Props {
   title: string;
@@ -9,7 +10,7 @@ interface Props {
 }
 
 const { title, html, href } = Astro.props;
-const isCheckout = href.startsWith('/go/');
+const isCheckout = isZadeyoHref(href);
 ---
 
 <aside class="blog-post-cta not-prose my-8" aria-label={title}>
@@ -26,7 +27,7 @@ const isCheckout = href.startsWith('/go/');
       size="sm"
       class="blog-post-cta__btn justify-start"
       {...(isCheckout
-        ? { rel: 'nofollow sponsored', 'data-astro-reload': true, 'data-astro-prefetch': 'false' }
+        ? { rel: CHECKOUT_LINK_REL, 'data-astro-reload': true, 'data-astro-prefetch': 'false' }
         : {})}
     >
       Buy now

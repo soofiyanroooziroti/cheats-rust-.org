@@ -11,6 +11,7 @@ import {
 import Icon from '../icons/Icon.astro';
 import ProductIconWell from './ProductIconWell.astro';
 import { Button } from '@/components/starwind/button';
+import { CHECKOUT_LINK_REL } from '../../config/checkout';
 import { RadioGroup, RadioGroupItem } from '@/components/starwind/radio-group';
 import { ROUTES, getLocalizedPath } from '../../utils/path';
 
@@ -161,7 +162,7 @@ const defaultPriceNote = checkoutDisplayPriceNote(defaultPlan.id);
               size="lg"
               class="product-checkout__buy group/buy w-full rounded-xl"
               data-checkout-buy
-              rel="nofollow sponsored"
+              rel={CHECKOUT_LINK_REL}
               data-astro-reload
               data-astro-prefetch="false"
             >
@@ -189,7 +190,7 @@ const defaultPriceNote = checkoutDisplayPriceNote(defaultPlan.id);
               size="lg"
               class="product-checkout__buy group/buy w-full rounded-xl"
               data-checkout-buy
-              rel="nofollow sponsored"
+              rel={CHECKOUT_LINK_REL}
               data-astro-reload
               data-astro-prefetch="false"
             >

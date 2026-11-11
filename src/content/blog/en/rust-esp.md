@@ -6,7 +6,7 @@
   "slug": "rust-esp",
   "image": "/images/blog/rust-esp.webp",
   "imageAlt": "Rust skeleton ESP and name label on a player inside a wooden base",
-  "desc": "Use rust esp in layers—skeleton, box, name, and distance labels on players. See how those overlays change a rotate before you queue your next fight this wipe.",
+  "desc": "Use rust esp in layers: skeleton, box, name and distance labels on players. See how each overlay changes a rotate before your next fight.",
   "date": "Oct 28, 2026",
   "dateIso": "2026-10-28",
   "readTime": "6 min read",

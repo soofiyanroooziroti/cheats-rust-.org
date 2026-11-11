@@ -1,6 +1,7 @@
 ---
 import Icon from './icons/Icon.astro';
 import type { IconName } from './icons/types';
+import { isZadeyoHref, CHECKOUT_LINK_REL } from '../config/checkout';
 
 interface Props {
   href: string;
@@ -10,7 +11,7 @@ interface Props {
 }
 
 const { href, class: className, ariaLabel, icon = 'arrowRight' } = Astro.props;
-const isCheckout = href.startsWith('/go/');
+const isCheckout = isZadeyoHref(href);
 ---
 
 <a
@@ -18,7 +19,7 @@ const isCheckout = href.startsWith('/go/');
   class:list={['slide-reveal-btn', className]}
   aria-label={ariaLabel}
   {...(isCheckout
-    ? { rel: 'nofollow sponsored', 'data-astro-reload': true, 'data-astro-prefetch': 'false' }
+    ? { rel: CHECKOUT_LINK_REL, 'data-astro-reload': true, 'data-astro-prefetch': 'false' }
     : {})}
 >
   <span class="slide-reveal-btn__icon" aria-hidden="true">

@@ -1,5 +1,5 @@
 ---
-import { checkoutPath } from '../config/checkout';
+import { CHECKOUT_LINK_REL, checkoutPath } from '../config/checkout';
 import { getLocaleFromAstro, getTranslations, localePath } from '../i18n';
 import AnimatedThemeSwitch from './AnimatedThemeSwitch.astro';
 import Icon from './icons/Icon.astro';
@@ -212,7 +212,7 @@ function drawerNavLabel(key: NavKey): string {
                 href={purchaseUrl}
                 class="header-drawer-cta"
                 aria-label={t.ui.checkoutAria}
-                rel="nofollow sponsored"
+                rel={CHECKOUT_LINK_REL}
                 data-astro-reload
                 data-astro-prefetch="false"
               >

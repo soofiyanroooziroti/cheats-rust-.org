@@ -11,7 +11,7 @@ import {
   faqPageSchema,
   parseBlogDate,
 } from '../../utils/schema';
-import { checkoutPath, resolveCheckoutHref } from '../../config/checkout';
+import { CHECKOUT_LINK_REL, checkoutPath, resolveCheckoutHref } from '../../config/checkout';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import ResponsiveImage from '../../components/ResponsiveImage.astro';
 import BlogSidebar from '../../components/BlogSidebar.astro';
@@ -196,7 +196,7 @@ const blogFaqs: SiteFaqItem[] = post.faqs?.length
           </div>
 
           <nav class="blog-article__actions" aria-label="Continue reading">
-            <Button as="a" href={checkoutPath('rustCheat')} variant="primary" aria-label={t.ui.checkoutAria} rel="nofollow sponsored" data-astro-reload data-astro-prefetch="false">
+            <Button as="a" href={checkoutPath('rustCheat')} variant="primary" aria-label={t.ui.checkoutAria} rel={CHECKOUT_LINK_REL} data-astro-reload data-astro-prefetch="false">
               Buy Rust Cheats
               <Icon name="arrowRight" size={17} />
             </Button>
